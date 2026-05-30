@@ -172,6 +172,7 @@ body {
 }
 
 .product-detail {
+  text-align: left;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
@@ -188,12 +189,14 @@ body {
 }
 
 .product-detail-name {
+  text-align: left;
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #333;
 }
 
 .product-detail-price {
+  text-align: left;
   font-size: 2rem;
   font-weight: bold;
   color: #007bff;
@@ -201,10 +204,12 @@ body {
 }
 
 .product-detail-description {
+  text-align: left;
   font-size: 1.1rem;
   color: #666;
   line-height: 1.8;
   margin-bottom: 2rem;
+
 }
 
 .auth-container {
